@@ -1,2 +1,11 @@
 #heading1 {color:#660066;}
 
+footer {color:grey;font-size:10pt;}
+
+a:link {color:grey;}
+a:hover {color:slategrey;}
+a:focus {color:darkgrey;}
+a:visited {color:deeppink;}
+a:active {color:darkred;}
+a:{text-decoration:none;}
+a:{text-decoration:blink;}
