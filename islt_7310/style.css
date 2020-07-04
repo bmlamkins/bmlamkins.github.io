@@ -7,5 +7,4 @@ a:hover {color:slategrey;}
 a:focus {color:darkgrey;}
 a:visited {color:deeppink;}
 a:active {color:darkred;}
-a:{text-decoration:none;}
-a:{text-decoration:blink;}
+a:{text-decoration:none;text-decoration:blink;text-decoration:line-through;}
