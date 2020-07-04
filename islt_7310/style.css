@@ -1,8 +1,13 @@
 #heading1 {color:#660066; font-size:35pt; font-family: sans-serif;}
 
-h1 {text-align:center;}
+h1 {text-align:center; border: 3px dotted plum; background-color:lightpink;}
 
-img {float:left;}
+img {float:left;
+    position:static;
+    top: 100px;
+    left: 25px;}
+
+body {background-color:ghostwhite;}
 
 h3 {color:dimgrey; font-size:15pt; text-align:center;}
 
@@ -12,7 +17,7 @@ ul {list-style-position: inside; text-align:left;}
 
 blockquote {text-align:center;}
 
-footer {color:grey;font-size:10pt;text-align:right;}
+footer {color:grey;font-size:10pt;text-align:right; border-top: 3px dotted plum;}
 
 a:link {color:grey;}
 a:hover {color:slategrey;}
