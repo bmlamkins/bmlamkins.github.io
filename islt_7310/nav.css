@@ -1,3 +1,5 @@
+/* Validated 6 July 2020 */
+
 nav ul li {list-style-type: none;
     width: 150px;
     border: 3pt dotted lightpink;
@@ -6,3 +8,27 @@ nav ul li {list-style-type: none;
     margin-top: 0;
     margin-left: 15px;}
     
+nav ul {list-style-type: none;
+    margin: 0;
+    padding: 0;}
+
+nav>ul li {width:150px;
+position: relative;
+text-align: center;
+font-weight: bold;
+color: lightpink;}
+
+nav ul li {margin-bottom: 2px;}
+
+nav a link {background-color: white;}
+
+nav a hover, nav a focus {background-color: pink;}
+
+nav a active {background-color: plum;}
+
+nav ul>li ul {position: absolute;
+    margin-top: 10%;
+    margin-left: 10%;
+    display: none;}
+
+nav>ul>li:hover>ul{display:block; background-color: ghostwhite;}
