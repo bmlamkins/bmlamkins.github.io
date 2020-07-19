@@ -1,4 +1,4 @@
-/* Validated 6 July 2020 */
+/* Validated 19 July 2020 */
 
 nav ul li {list-style-type: none;
     width: 150px;
@@ -20,11 +20,11 @@ color: lightpink;}
 
 nav ul li {margin-bottom: 2px;}
 
-nav a link {background-color: white;}
+nav a:link {background-color: ghostwhite;}
 
-nav a hover, nav a focus {background-color: pink;}
+nav a:hover, nav a:focus {background-color: pink;}
 
-nav a active {background-color: plum;}
+nav a:active {background-color: plum;}
 
 nav ul>li ul {position: absolute;
     margin-top: 10%;

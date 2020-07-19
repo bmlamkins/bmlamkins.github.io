@@ -1,30 +1,72 @@
+/*Responsive Web Layout*/
+
+@media screen and (max-width:959px)
+
+#header {width:100%;}
+
+#img {width: 100%;}
+
+#main {width: 73%;}
+
+#sideA {width: 35%;}
+
+#sideB {width: 35%;}
+
+#sideC {width: 20%;}
+
+#sideD {width: 20%;}
+ 
+#sideE {width: 20%;}
+
+#blockquote {width: 70%;}
+
+
+@media screen and (max-width:640px)
+    
+#header {width:100%;}
+
+#img {width: 100%;}
+
+#main {width: 100%;}
+
+#sideA {width: 100%;}
+
+#sideB {width: 100%;}
+
+#sideC {width: 100%;}
+
+#sideD {width: 100%;}
+ 
+#sideE {width: 100%;}
+
+#blockquote {width: 100%;}
+
 /*entire page style*/
 
 * {margin: 0; padding: 0;}
 
 body {margin: 1px auto; width: 100%; border: 1px;}
 
+@media screen and (max-width:320px)
+    
+    #header {width:320px;}
+
 
 
 /*semantic element styles*/
 
-header {border-bottom: 0px; width: 100%; padding-bottom: 20px;}
+header {border-bottom: 0px; width: 1430px; padding-bottom: 20px;}
 
-img {float:left; height: 23%; width: 23%; border-right: 1px;}
+img {float:left; height: 450px; width: 340px; border-right: 1px;}
 
-main {width:73%; height:150px; float:right; border-left:1px; padding-top: 20px;}
+main {width:1000px; height:150px; float:left; border-left:1px; padding-top: 20px;}
 
-#sideA {float:left; height: 175px; width: 35%; border-right: 2px;}
+#sideA {float:left; height: 175px; width:500px; border-right: 2px;}
 
-#sideB {width:35%; height:175px; float:right; border-left: 2px;}
+#sideB {width:500px; height:330px; float:right; border-left: 2px;}
 
-#sideC {width:20%; height:10%; float:left; border-left: 2px;}
 
-#sideD {float:center; height: 10%; width: 20%; border-right: 2px; border-left:2px;}
-
-#sideE {width:20%; height:10%; float:left; border-left: 2px;}
-
-blockquote {height: 225px; width 70%; border-top: 5px; border-bottom: 1px;}
+blockquote {width: 1000px;float:left; border-top: 5px; border-bottom: 1px;}
 
 footer {border-top: 5px;clear:both;}
 
