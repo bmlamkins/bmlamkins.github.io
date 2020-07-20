@@ -6,19 +6,13 @@
 
 #img {width: 100%;}
 
-#main {width: 73%;}
+#main {width: 100%;}
 
 #sideA {width: 35%;}
 
 #sideB {width: 35%;}
 
-#sideC {width: 20%;}
-
-#sideD {width: 20%;}
- 
-#sideE {width: 20%;}
-
-#blockquote {width: 70%;}
+#blockquote {width: 100%;}
 
 
 @media screen and (max-width:640px)
@@ -32,12 +26,6 @@
 #sideA {width: 100%;}
 
 #sideB {width: 100%;}
-
-#sideC {width: 100%;}
-
-#sideD {width: 100%;}
- 
-#sideE {width: 100%;}
 
 #blockquote {width: 100%;}
 
@@ -55,7 +43,7 @@ body {margin: 1px auto; width: 100%; border: 1px;}
 
 /*semantic element styles*/
 
-header {border-bottom: 0px; width: 1430px; padding-bottom: 20px;}
+header {border-bottom: 0px; width: 1430px; padding-bottom: 2px;}
 
 img {float:left; height: 450px; width: 340px; border-right: 1px;}
 
@@ -66,11 +54,9 @@ main {width:1000px; height:150px; float:left; border-left:1px; padding-top: 20px
 #sideB {width:500px; height:330px; float:right; border-left: 2px;}
 
 
-blockquote {width: 1000px;float:left; border-top: 5px; border-bottom: 1px;}
+blockquote {width: 1000px;float:left;}
 
 footer {border-top: 5px;clear:both;}
-
-
 
 
 /*content styling*/
