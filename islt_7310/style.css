@@ -1,3 +1,8 @@
+/*Font*/
+
+@font-face {font-family: Poppins-Regular;
+    src: url:(Poppins-Regular.ttf)}
+
 /*Responsive Web Layout*/
 
 @media screen and (max-width:959px)
