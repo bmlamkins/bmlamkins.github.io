@@ -1,7 +1,67 @@
 /*Font*/
+blockquote {width:100%;
+    max-width: 960px;
+    font:6em "Poppins", sans-serif;}
 
-@font-face {font-family: Poppins-Regular;
-    src: url:(Poppins-Regular.ttf)}
+/*Print Page*/
+@media print
+    
+/* HIDE UNWANTED ELEMENTS */
+     {nav,
+     img {display: none;}
+
+/* GLOBAL RESET */
+     body {font-family: "Poppins", sans-serif;
+       font-size: 16pt;
+       line-height: 24pt;
+       background: none;
+       color: #000;}
+
+/* LAYOUT RESET */
+     footer {background: none;
+       width: 100%;
+       border: none;
+       padding: 0;
+       margin: 0;
+       color: #000;}
+
+/* SPECIFICS */
+     h3 {color: #000;
+        font: "Poppins" sans-serif;
+       font-size: 24pt;
+       line-height: 30pt;
+       margin: 0;}
+
+     header {font-size: 45pt;
+       margin: 0 0 20pt;
+       text-align: center;
+       width: 100%;
+       transform: rotate(0);}
+         
+    ul {color: #000;
+        font: "Poppins" sans-serif;
+       font-size: 24pt;
+       line-height: 30pt;
+       margin: 0;}
+         
+    li {color: #000;
+        font: "Poppins" sans-serif;
+       font-size: 24pt;
+       line-height: 30pt;
+       margin: 0;}
+         
+    blockquote {color: #000;
+        font: "Poppins" sans-serif;
+       font-size: 24pt;
+       line-height: 30pt;
+       margin: 0;}
+
+     footer a:link,
+     footer a:visited {color: #000;
+         background: none;
+         padding: 0;}}
+
+@page {size:8.5in 11in; margin:1cm;}
 
 /*Responsive Web Layout*/
 
@@ -48,7 +108,7 @@ body {margin: 1px auto; width: 100%; border: 1px;}
 
 /*semantic element styles*/
 
-header {border-bottom: 0px; width: 1430px; padding-bottom: 2px;}
+header {border-bottom: 0px; width: 960; padding-bottom: 2px;}
 
 img {float:left; height: 450px; width: 340px; border-right: 1px;}
 
@@ -83,7 +143,7 @@ aside {color: dimgray; font-size:20pt; text-align: left;}
 
 body {background-color:ghostwhite; margin:20px;}
 
-h3 {color:dimgrey; font-size:20pt; text-align:center;}
+h3 {color:dimgrey; font-size:17pt; text-align:center;}
 
 h2 {color:dimgray; font-size:20pt; text-align:center;}
 
