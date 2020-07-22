@@ -1,0 +1,173 @@
+/*Font*/
+blockquote {width:100%;
+    max-width: 960px;
+    font:6em "Poppins", sans-serif;}
+
+/*Print Page*/
+@media print
+    
+/* HIDE UNWANTED ELEMENTS */
+     {nav {display: none;}
+
+/* GLOBAL RESET */
+     body {font-family: "Poppins", sans-serif;
+       font-size: 16pt;
+       line-height: 24pt;
+       background: none;
+       color: #000;}
+
+/* LAYOUT RESET */
+     footer {background: none;
+       width: 100%;
+       border: none;
+       padding: 0;
+       margin: 0;
+       color: #000;}
+
+/* SPECIFICS */
+    img {float:left;
+        height: 450px;
+        width: 340px;
+        border-right: 1px;}
+     h3 {color: #000;
+        font: "Poppins" sans-serif;
+       font-size: 24pt;
+       line-height: 30pt;
+       margin: 0;}
+
+     header {font-size: 45pt;
+       margin: 0 0 20pt;
+       text-align: center;
+       width: 100%;
+       transform: rotate(0);}
+         
+    ul {color: #000;
+        font: "Poppins" sans-serif;
+       font-size: 24pt;
+       line-height: 30pt;
+       margin: 0;}
+         
+    li {color: #000;
+        font: "Poppins" sans-serif;
+       font-size: 24pt;
+       line-height: 30pt;
+       margin: 0;}
+         
+    blockquote {color: #000;
+        font: "Poppins" sans-serif;
+       font-size: 24pt;
+       line-height: 30pt;
+       margin: 0;}
+
+     footer a:link,
+     footer a:visited {color: #000;
+         background: none;
+         padding: 0;}}
+
+@page {size:8.5in 11in; margin:1cm;}
+
+
+/*Responsive Web Layout*/
+
+@media screen and (max-width:959px)
+
+#header {width:100%;}
+
+#img {width: 100%;}
+
+#main {width: 100%;}
+
+#sideA {width: 35%;}
+
+#sideB {width: 35%;}
+
+#blockquote {width: 100%;}
+
+
+@media screen and (max-width:640px)
+    
+#header {width:100%;}
+
+#img {width: 100%;}
+
+#main {width: 100%;}
+
+#sideA {width: 100%;}
+
+#sideB {width: 100%;}
+
+#blockquote {width: 100%;}
+
+/*entire page style*/
+
+* {margin: 0; padding: 0;}
+
+body {margin: 1px auto; width: 100%; border: 1px;}
+
+@media screen and (max-width:320px)
+    
+    #header {width:320px;}
+
+
+
+/*semantic element styles*/
+
+header {border-bottom: 0px; width: 960; padding-bottom: 2px;}
+
+img {float:left; height: 450px; width: 340px; border-right: 1px;}
+
+main {width:1000px; height:150px; float:left; border-left:1px; padding-top: 20px;}
+
+#sideA {float:left; height: 175px; width:500px; border-right: 2px;}
+
+#sideB {width:500px; height:330px; float:right; border-left: 2px;}
+
+
+blockquote {width: 1000px;float:left;}
+
+footer {border-top: 5px;clear:both;}
+
+
+/*content styling*/
+
+main {color: dimgray; font-size:20pt; text-align:center; padding-top:10px;}
+
+nav {border-bottom: 1px;}
+
+header {color:#660066; font-size:45pt; font-family: sans-serif; text-align:center; padding: 15px; border: 3px dotted plum; background-color:lightpink;}
+
+img {float:left;
+    position: relative;
+    padding-top: 25px;
+    padding-left: 0px;
+    padding-right: 25px;
+    padding-bottom: 25px;}
+
+aside {color: dimgray; font-size:20pt; text-align: left;}
+
+body {background-color:ghostwhite; margin:20px;}
+
+h3 {color:dimgrey; font-size:17pt; text-align:center;}
+
+h2 {color:dimgray; font-size:20pt; text-align:center;}
+
+#list1 {color:dimgray; font-size: 20pt; text-align: left;}
+
+#list2 {color:dimgray; font-size: 20pt; text-align: left;}
+
+il ul {list-style-position: inside; text-align:left;}
+
+li {font-size: 15pt;}
+
+blockquote {text-align: end; font-size: 30pt; color: palevioletred;}
+
+main {background-color: ghostwhite;}
+
+footer {color:grey;font-size:10pt;text-align:right; border-top: 3px dotted plum; padding-top:5px;}
+
+a:link {color:grey;}
+a:hover {color:slategrey;}
+a:focus {color:darkgrey;}
+a:visited {color:deeppink;}
+a:active {color:darkred;}
+a {text-decoration:none;text-decoration:blink;}
