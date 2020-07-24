@@ -1,3 +1,5 @@
+/*Validated 24 Jul, 2020*/
+
 /*set the active page class to any <li> that has the class*/
 .active a:link {background-color: ghostwhite;}
 
@@ -19,9 +21,9 @@ nav>ul li {position: relative; /*we must add a position to our main navigation b
 nav a {text-decoration: none;
     display: inline-block;
     border: 3px dotted lightpink;
-    padding: 15px 15px 15px 15px;
-    width: 150px; /*this is important to set so our drop-down doesn't go across the page*/
-    margin: 2px;}
+    padding: 10px 10px 10px 10px;
+    width: 135px; /*this is important to set so our drop-down doesn't go across the page*/
+    margin: 3px;}
 
 /*format all navigation <a> elements*/
 nav a:link{background-color: ghostwhite;}
@@ -38,7 +40,7 @@ nav ul>li ul {position: absolute;
 nav ul ul li {float:none;}
 
 /*special hover to display the drop-down*/
-nav>ul>li:hover>ul{display: block;}
+nav>ul>li:hover>ul{display: flex;}
 
 @media only screen and (max-width: 640px) {header {position: relative;
         height: 40px;
