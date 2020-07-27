@@ -143,11 +143,27 @@ body {margin: 1px auto; width: 100%; border: 1px;}
 
 /*semantic element styles*/
 
-header {border-bottom: 0px; width: 960px; padding-bottom: 2px;}
+header {border-bottom: 0px;
+    width: 960px;
+    padding-bottom: 2px;}
 
-img {float:left; height: 400px; width: 288px; border-right: 1px;}
+img {float:left;
+    height: 400px;
+    width: 288px;
+    border-right: 1px;}
 
-#main {width:960px; height:200px; float:left; border-left:1px; padding-top: 20px; padding-right: 20px; font-weight:normal;}
+#main {width:960px;
+    height:200px;
+    float:left;
+    border-left:1px;
+    padding-top: 20px;
+    padding-right: 20px;
+    font-weight:normal;}
+
+h2 {padding-top:25px;
+    width: 670px;
+    height: 50px;
+    float:left;}
 
 h3 {padding-top: 25px;}
 
@@ -184,13 +200,28 @@ iframe {padding-top: 25px;
     padding-bottom: 25px;
     padding-left: 20px;}
 
-#sideA {float:left; height: 225px; width:300px; border-right: 1px; padding-right: 20px;}
+#sideA {float:left;
+    height: 225px;
+    width:300px;
+    border-right: 1px;
+    padding-right: 20px;}
 
-#sideB {width:300px; height:225px; float:left; border-left: 1px; padding-left:20px;}
+#sideB {width:300px;
+    height:225px;
+    float:left;
+    border-left: 1px;
+    padding-left:20px;}
 
-blockquote {width: 960px; height: 125px; float:left; padding-top: 10px;}
+blockquote {width: 960px;
+    height: 125px;
+    float:left;
+    padding-top: 10px;}
 
-footer {width: 960px; height:100px; border-top: 5px; clear:both; float:left;}
+footer {width: 960px;
+    height:100px;
+    border-top: 5px;
+    clear:both;
+    float:left;}
 
 #section1 {width:960px;
     height: 750px;
@@ -208,12 +239,32 @@ footer {width: 960px; height:100px; border-top: 5px; clear:both; float:left;}
     float: left;
     padding-top: 0px;}
 
+#tableA {width: 670px;
+    height: 100px;
+    background-color: lightpink;}
+#tableA tr:nth-child(even) {background-color: lightpink;}
+#tableA tr:nth-child(odd) {background-color: ghostwhite;}
+
+#tableB {width: 670px;
+  background-color: lightpink;}
+#tableB tr:nth-child(even) {background-color: lightpink;}
+#tableB tr:nth-child(odd) {background-color: ghostwhite;}
+
 
 /*content styling*/
 
-main {color: dimgray; font-size:20pt; text-align:center; padding-top:10px;}
+main {color: dimgray;
+    font-size:20pt;
+    text-align:center;
+    padding-top:10px;}
 
-header {color:#660066; font-size:45pt; font-family: sans-serif; text-align:center; padding: 15px; border: 3px dotted plum; background-color:lightpink;}
+header {color:#660066;
+    font-size:45pt;
+    font-family: sans-serif;
+    text-align:center;
+    padding: 15px;
+    border: 3px dotted plum;
+    background-color:lightpink;}
 
 img {float: left;
     position: relative;
@@ -223,21 +274,41 @@ img {float: left;
     padding-bottom: 25px;
     clear:both;}
 
-aside {color: dimgray; font-size:20pt; text-align: left;}
+aside {color: dimgray;
+    font-size:20pt;
+    text-align: left;}
 
-body {background-color:ghostwhite; margin:20px; font-family: sans-serif;}
+body {background-color:ghostwhite;
+    margin:20px;
+    font-family: sans-serif;}
 
-h3 {color:dimgrey; font-size:17pt; text-align:center;}
+h2 {color:dimgrey;
+    font-size:20px;
+    text-align:center;}
 
-h4 {color: dimgray; font-size: 20pt; text-align: center;}
+h3 {color:dimgrey;
+    font-size:17pt;
+    text-align:center;}
 
-h5 {color: dimgray; font-size: 20pt; text-align: center;}
+h4 {color: dimgray;
+    font-size: 20pt;
+    text-align: center;}
 
-h6 {color: dimgray; font-size: 25pt; text-align: center;}
+h5 {color: dimgray;
+    font-size: 20pt;
+    text-align: center;}
 
-#list1 {color:dimgray; font-size: 20pt; text-align: left;}
+h6 {color: dimgray;
+    font-size: 25pt;
+    text-align: center;}
 
-#list2 {color:dimgray; font-size: 20pt; text-align: left;}
+#list1 {color:dimgray;
+    font-size: 20pt;
+    text-align: left;}
+
+#list2 {color:dimgray;
+    font-size: 20pt;
+    text-align: left;}
 
 #section1 {color:dimgray;
     font-size: 15pt;
@@ -257,13 +328,18 @@ h6 {color: dimgray; font-size: 25pt; text-align: center;}
     position: relative;
     float: left;}
 
-il ul {list-style-position: inside; text-align:left;}
+il ul {list-style-position: inside;
+    text-align:left;}
 
 li {font-size: 15pt;}
 
-blockquote {text-align: end; font-size: 30pt; color: palevioletred; position: relative;}
+blockquote {text-align: end;
+    font-size: 30pt;
+    color: palevioletred;
+    position: relative;}
 
-main {background-color: ghostwhite; position: relative;}
+main {background-color: ghostwhite;
+    position: relative;}
 
 p {color: black;}
 
@@ -271,6 +347,20 @@ form {color: dimgray;
     font-size: 15pt;
     text-align: left;
     line-height: 2;}
+
+table, th, td {border: 1px solid black;}
+
+th, td {padding: 1px;}
+
+#tableA {color: black;
+    font-weight: normal;
+    text-align: center;
+    font-size: 12pt;}
+
+#tableB {color: black;
+    font-weight: normal;
+    text-align: center;
+    font-size: 12pt;}
 
 iframe {width:560px;
     height: 315px;
