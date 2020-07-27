@@ -171,6 +171,12 @@ h6 {padding-top: 25px;
     float:left;
     padding-bottom: 25px;}
 
+form {padding-top: 50px;
+    width: 645px;
+    height: 50px;
+    float:left;
+    padding-bottom: 25px;}
+
 iframe {padding-top: 25px;
     width: 500px;
     height: 301px;
@@ -260,6 +266,11 @@ blockquote {text-align: end; font-size: 30pt; color: palevioletred; position: re
 main {background-color: ghostwhite; position: relative;}
 
 p {color: black;}
+
+form {color: dimgray;
+    font-size: 15pt;
+    text-align: left;
+    line-height: 2;}
 
 iframe {width:560px;
     height: 315px;
