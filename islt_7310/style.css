@@ -2,22 +2,21 @@
 
 * {margin:0; padding:0;}
 
-html, body {height: 960px}
+html, body {height: 100%;}
 
-#container {min-height: 800px}
+#container {min-height: 100%;}
 
-#main {overflow: auto;
-    padding-bottom: 500px;}
+#main {padding-bottom: 65px;}
 
 #footer {background-image: url(images/pinkbackground.png);
-    position: relative;
-    height: 65px;
-    margin-top: -65px;
+    position:relative;
+    height: 100px;
+    margin-top: -100px;
     clear:both;}
 
 /*Font*/
 blockquote {width:100%;
-    max-width: 960px;
+    max-width: 100%;
     font:6em "Poppins", sans-serif;}
 
 /*Print Page*/
@@ -144,15 +143,15 @@ body {margin: 1px auto; width: 100%; border: 1px;}
 /*semantic element styles*/
 
 header {border-bottom: 0px;
-    width: 960px;
+    width: 97%;
     padding-bottom: 2px;}
 
 img {float:left;
-    height: 400px;
-    width: 288px;
+    height: 600px;
+    width: 388px;
     border-right: 1px;}
 
-#main {width:960px;
+#main {width:97%;
     height:200px;
     float:left;
     border-left:1px;
@@ -174,24 +173,25 @@ h4 {padding-top: 25px;
     padding-bottom: 25px;}
 
 h5 {padding-top: 50px;
-    width: 300px;
+    width: 50%;
     height: 50px;
     float:left;
     padding-bottom: 25px;
     padding-right: 20px;
     text-align:center;}
 
-h6 {padding-top: 25px;
-    width: 645px;
+h6 {padding-top: 0px;
+    width: 70%;
     height: 50px;
     float:left;
     padding-bottom: 25px;}
 
 form {padding-top: 50px;
-    width: 645px;
+    width: 70%;
     height: 50px;
     float:left;
-    padding-bottom: 25px;}
+    padding-bottom: 25px;
+    margin: 10px 10px 10px 10px;}
 
 iframe {padding-top: 25px;
     width: 500px;
@@ -202,22 +202,22 @@ iframe {padding-top: 25px;
 
 #sideA {float:left;
     height: 225px;
-    width:300px;
+    width:35%;
     border-right: 1px;
     padding-right: 20px;}
 
-#sideB {width:300px;
+#sideB {width:35%;
     height:225px;
     float:left;
     border-left: 1px;
     padding-left:20px;}
 
-blockquote {width: 960px;
+blockquote {width: 70%;
     height: 125px;
     float:left;
-    padding-top: 10px;}
+    padding-top: 15px;}
 
-footer {width: 960px;
+footer {width: 1300px;
     height:100px;
     border-top: 5px;
     clear:both;
@@ -367,9 +367,9 @@ iframe {width:560px;
     border:0;}
 
 #footer {color: black;
-    width:960px;
-    height:65px;
-    font-size: 10pt;
+    width:97%;
+    height:100px;
+    font-size: 11pt;
     text-align: right;
     border-top: 3px dotted plum;
     padding-top: 5px;}
