@@ -2,14 +2,16 @@
 
 * {margin:0; padding:0;}
 
-html, body {height: 100%;}
+html, body {height: 100vh;}
 
-#container {min-height: 100%;}
+#container {min-height: 100vh;}
 
 #main {padding-bottom: 65px;}
 
 #footer {background-image: url(images/pinkbackground.png);
-    position:relative;
+    position:absolute;
+    bottom:auto;
+    width:97%;
     height: 100px;
     margin-top: -100px;
     clear:both;}
@@ -91,7 +93,8 @@ blockquote {width:100%;
 
 #nav {width:959px;}
 
-#img {width: 288px;}
+#img {width: 100%;
+    height: auto;}
 
 #main {width: 959px;}
 
@@ -128,7 +131,7 @@ blockquote {width:100%;
 
 #section2 {width:100%;}
 
-    #section3 {width:100%;}}
+#section3 {width:100%;}}
 
 /*entire page style*/
 
@@ -138,8 +141,6 @@ body {margin: 1px auto; width: 100%; border: 1px;}
     
 {#header {width:320px;}}
 
-
-
 /*semantic element styles*/
 
 header {border-bottom: 0px;
@@ -147,12 +148,12 @@ header {border-bottom: 0px;
     padding-bottom: 2px;}
 
 img {float:left;
-    height: 600px;
-    width: 388px;
+    height: 500%;
+    width: 30%;
     border-right: 1px;}
 
 #main {width:97%;
-    height:200px;
+    height:auto;;
     float:left;
     border-left:1px;
     padding-top: 20px;
@@ -160,15 +161,16 @@ img {float:left;
     font-weight:normal;}
 
 h2 {padding-top:25px;
-    width: 670px;
+    width: 65%;
     height: 50px;
     float:left;}
 
 h3 {padding-top: 25px;}
 
 h4 {padding-top: 25px;
-    width: 672px;
-    height: 50px;
+    width: 65%;
+    line-height: 100px;
+    height: auto;
     float:left;
     padding-bottom: 25px;}
 
@@ -187,7 +189,7 @@ h6 {padding-top: 0px;
     padding-bottom: 25px;}
 
 form {padding-top: 50px;
-    width: 70%;
+    width: 65%;
     height: 50px;
     float:left;
     padding-bottom: 25px;
@@ -223,29 +225,29 @@ footer {width: 1300px;
     clear:both;
     float:left;}
 
-#section1 {width:960px;
-    height: 750px;
+#section1 {width:97%;
+    height: auto;
     float: left;
     clear: both;
     padding-top: 0px;}
 
-#section2 {width:960px;
-    height: 650px;
+#section2 {width:97%;
+    height: auto;
     float: left;
     padding-top: 0px;}
 
-#section3 {width:960px;
-    height: 700px;
+#section3 {width:97%;
+    height: auto;
     float: left;
     padding-top: 0px;}
 
-#tableA {width: 670px;
+#tableA {width: 65%;
     height: 100px;
     background-color: lightpink;}
 #tableA tr:nth-child(even) {background-color: lightpink;}
 #tableA tr:nth-child(odd) {background-color: ghostwhite;}
 
-#tableB {width: 670px;
+#tableB {width: 65%;
   background-color: lightpink;}
 #tableB tr:nth-child(even) {background-color: lightpink;}
 #tableB tr:nth-child(odd) {background-color: ghostwhite;}
