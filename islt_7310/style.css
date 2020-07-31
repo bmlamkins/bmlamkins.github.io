@@ -8,13 +8,7 @@ html, body {height: 100vh;}
 
 #main {padding-bottom: 65px;}
 
-#footer {background-image: url(images/pinkbackground.png);
-    position:absolute;
-    bottom:auto;
-    width:97%;
-    height: 100px;
-    margin-top: -100px;
-    clear:both;}
+
 
 /*Font*/
 blockquote {width:100%;
@@ -206,13 +200,15 @@ iframe {padding-top: 25px;
     height: 225px;
     width:35%;
     border-right: 1px;
-    padding-right: 20px;}
+    padding-right: 20px;
+    color: deeppink;}
 
 #sideB {width:35%;
     height:225px;
     float:left;
     border-left: 1px;
-    padding-left:20px;}
+    padding-left:20px;
+    color: deeppink;}
 
 blockquote {width: 70%;
     height: 125px;
@@ -221,7 +217,7 @@ blockquote {width: 70%;
 
 footer {width: 1300px;
     height:100px;
-    border-top: 5px;
+    padding: 20px;
     clear:both;
     float:left;}
 
@@ -245,12 +241,12 @@ footer {width: 1300px;
     height: 100px;
     background-color: lightpink;}
 #tableA tr:nth-child(even) {background-color: lightpink;}
-#tableA tr:nth-child(odd) {background-color: ghostwhite;}
+#tableA tr:nth-child(odd) {background-color: white;}
 
 #tableB {width: 65%;
   background-color: lightpink;}
 #tableB tr:nth-child(even) {background-color: lightpink;}
-#tableB tr:nth-child(odd) {background-color: ghostwhite;}
+#tableB tr:nth-child(odd) {background-color: white;}
 
 
 /*content styling*/
@@ -260,13 +256,12 @@ main {color: dimgray;
     text-align:center;
     padding-top:10px;}
 
-header {color:#660066;
+header {color: deeppink;
+    font-weight: 500;
     font-size:45pt;
     font-family: sans-serif;
-    text-align:center;
-    padding: 15px;
-    border: 3px dotted plum;
-    background-color:lightpink;}
+    text-align:left;
+    background-color:white;}
 
 img {float: left;
     position: relative;
@@ -280,7 +275,7 @@ aside {color: dimgray;
     font-size:20pt;
     text-align: left;}
 
-body {background-color:ghostwhite;
+body {background-color:white;
     margin:20px;
     font-family: sans-serif;}
 
@@ -337,10 +332,10 @@ li {font-size: 15pt;}
 
 blockquote {text-align: end;
     font-size: 30pt;
-    color: palevioletred;
+    color: dimgray;
     position: relative;}
 
-main {background-color: ghostwhite;
+main {background-color: white;
     position: relative;}
 
 p {color: black;}
@@ -368,13 +363,11 @@ iframe {width:560px;
     height: 315px;
     border:0;}
 
-#footer {color: black;
+#footer {color: dimgray;
     width:97%;
     height:100px;
     font-size: 11pt;
-    text-align: right;
-    border-top: 3px dotted plum;
-    padding-top: 5px;}
+    text-align: right;}
 
 a:link {color:grey;}
 a:hover {color:slategrey;}
